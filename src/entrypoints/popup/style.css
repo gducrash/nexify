@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Unbounded:wght@200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: hsl(355, 100%, 93%);
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Unbounded', sans-serif;
+}
+
+.page {
+    background: hsl(355, 29%, 10%);
+    padding: 12px 32px;
+}
+
+.footer {
+    background: hsl(355, 29%, 18%);
+    color: hsl(355, 25%, 66%);
+    padding: 12px 32px;
+    padding-bottom: 24px;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: hsl(355, 25%, 78%);
+}
+
+.flag-beta::after {
+    content: 'Experimental';
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    display: inline-block;
+    background: #49ffa1;
+    color: #000;
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin-left: 8px;
+    transform: translateY(-3px);
+}
+
+
+a {
+    color: hsl(204, 88%, 70%);
+}
+a:hover {
+    color: hsl(204, 88%, 90%);
+}
+
+.settings-item {
+    padding: 10px 0;
+    border-top: 1px solid hsla(355, 25%, 66%, 0.25);
+}
+
+.desc {
+    color: hsl(355, 25%, 66%);
+    margin-bottom: 10px;
+}
+
+.settings-item .hint {
+    color: hsl(355, 25%, 60%);
+    /* margin-bottom: 10px; */
+    padding-left: 18px;
+    font-size: 12px;
+}
+
+.settings-item > div {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.settings-item > div.section {
+    margin-bottom: 8px;
+}
+
+.settings-item input[type=radio] {
+    margin-right: 4px;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
